@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark theme overrides. Only the colours that would be unreadable in dark
+         mode are redefined here, so the day/night look stays consistent. -->
+    <color name="status_online">#6FDD8C</color>
+    <color name="status_online_light">#12301C</color>
+    <color name="status_offline">#AEBAB9</color>
+    <color name="status_offline_light">#222C2C</color>
+    <color name="alert_warning">#FFB74D</color>
+    <color name="alert_warning_light">#3A2A10</color>
+    <color name="alert_danger">#FF897E</color>
+    <color name="alert_danger_light">#3C1714</color>
+
+    <color name="text_primary">#E3ECEB</color>
+    <color name="text_secondary">#A9B6B5</color>
+    <color name="surface_page">#101817</color>
+    <color name="surface_card">#18211F</color>
+    <color name="divider">#2A3534</color>
+</resources>

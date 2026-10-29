@@ -1,0 +1,30 @@
+{
+  "rules": {
+    "devices": {
+      "$deviceId": {
+        ".read": true,
+        ".write": true,
+        ".validate": "newData.hasChildren(['lastSeen']) || newData.hasChildren(['status']) || newData.hasChildren(['emergency'])"
+      }
+    },
+    "alerts": {
+      ".read": true,
+      ".write": true,
+      ".indexOn": ["timestamp"]
+    },
+    "fcm_tokens": {
+      ".read": true,
+      "$tokenKey": {
+        ".write": true
+      }
+    },
+    "family_contacts": {
+      ".read": true,
+      ".write": true
+    },
+    "notifications_log": {
+      ".read": true,
+      ".write": true
+    }
+  }
+}

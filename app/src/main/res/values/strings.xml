@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Bathroom Safety</string>
+    <string name="app_tagline">Fall Detection &amp; Emergency Response</string>
+
+    <!-- ============ Home dashboard ============ -->
+    <string name="home_section_device">Device Connection &amp; Hardware</string>
+    <string name="home_section_current_status">Current Status</string>
+    <string name="home_section_latest_alert">Latest Alert</string>
+    <string name="home_section_quick_actions">Quick Actions</string>
+    <string name="home_no_alerts_hint">No alerts recorded yet. When the hardware detects an emergency with buzzer OFF, it will appear here.</string>
+    <string name="home_connection_online">The safety device is connected and reporting normally.</string>
+    <string name="home_connection_offline">No heartbeat from the safety device. Check power or Wi‑Fi.</string>
+    <string name="home_status_online">Everything looks normal. No action is needed.</string>
+    <string name="home_status_offline">The device is offline. This is different from an alert.</string>
+    <string name="home_status_no_motion">No motion was detected. This is an ALERT, not an offline device.</string>
+    <string name="home_status_emergency">The emergency condition was detected. Call someone now.</string>
+    <string name="home_last_updated">Last updated: %1$s</string>
+    <string name="home_heartbeat">Heartbeat: %1$s</string>
+
+    <!-- ============ Hardware Telemetry ============ -->
+    <string name="hardware_telemetry_title">Hardware Telemetry</string>
+    <string name="hardware_label_buzzer">Buzzer:</string>
+    <string name="hardware_label_occupancy">Occupancy:</string>
+    <string name="hardware_label_system_state">System Status:</string>
+    <string name="hardware_buzzer_ringing">RINGING</string>
+    <string name="hardware_buzzer_silent">NOT RINGING</string>
+    <string name="hardware_occupancy_motion">MOTION DETECTED</string>
+    <string name="hardware_occupancy_vacant">VACANT / NO MOTION</string>
+    <string name="hardware_system_normal">NORMAL</string>
+    <string name="hardware_system_warning">WARNING</string>
+    <string name="hardware_system_emergency">EMERGENCY</string>
+
+    <!-- ============ Buttons ============ -->
+    <string name="action_contacts">Emergency Contacts</string>
+    <string name="action_contacts_desc">Add, edit and call the people you trust.</string>
+    <string name="action_history">Alert History</string>
+    <string name="action_history_desc">Review every alert recorded in Firebase.</string>
+    <string name="action_hospitals">Nearby Hospitals</string>
+    <string name="action_hospitals_desc">Open Google Maps and search for hospitals near you.</string>
+    <string name="action_demo">Demo &amp; Hardware Test</string>
+    <string name="action_demo_desc">Simulate alerts and test live Firebase hardware events.</string>
+    <string name="action_call_family">Call a Family Member</string>
+    <string name="action_call_family_desc">Opens your phone dialler so you can confirm the call.</string>
+    <string name="action_open_hospitals">Open Nearby Hospitals</string>
+    <string name="action_acknowledge">I Have Handled This</string>
+    <string name="action_add_contact">Add Contact</string>
+    <string name="action_save_contact">Save Contact</string>
+    <string name="action_update_contact">Update Contact</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_call">Call</string>
+    <string name="action_clear_history">Clear History</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_open_browser">Open in browser</string>
+    <string name="action_search_maps">Search in Google Maps</string>
+    <string name="action_ok">OK</string>
+
+    <!-- ============ Device status values ============ -->
+    <string name="status_online">ONLINE</string>
+    <string name="status_offline">OFFLINE</string>
+    <string name="status_no_motion_alert">NO MOTION ALERT</string>
+    <string name="status_emergency_alert">EMERGENCY ALERT</string>
+
+    <!-- ============ Alert types ============ -->
+    <string name="alert_type_no_motion">NO MOTION DETECTED</string>
+    <string name="alert_type_emergency">EMERGENCY BUTTON PRESSED</string>
+    <string name="alert_type_no_motion_short">No motion detected</string>
+    <string name="alert_type_emergency_short">Emergency button pressed</string>
+    <string name="alert_type_no_motion_explainer">The device stopped detecting movement inside the bathroom. This may be a fall, or the person may simply be resting. Check on them as soon as possible.</string>
+    <string name="alert_type_emergency_explainer">The emergency button on the device was pressed. This is a direct request for help. Call a family member now.</string>
+
+    <!-- ============ Alert screen ============ -->
+    <string name="alert_screen_title">Safety Alert</string>
+    <string name="alert_details_title">Alert details</string>
+    <string name="alert_label_type">Alert type</string>
+    <string name="alert_label_time">Time</string>
+    <string name="alert_label_date">Date</string>
+    <string name="alert_label_device_status">Device status</string>
+    <string name="alert_label_source">Source</string>
+    <string name="alert_source_demo">DEMO (simulated)</string>
+    <string name="alert_source_device">Real device</string>
+    <string name="alert_demo_badge">DEMO</string>
+    <string name="alert_choose_contact_title">Who do you want to call?</string>
+    <string name="alert_no_contacts_title">No family contacts saved</string>
+    <string name="alert_no_contacts_message">Add a family member first so you can call them in one tap during an emergency.</string>
+    <string name="alert_acknowledged">Alert marked as handled.</string>
+
+    <!-- ============ Contacts ============ -->
+    <string name="contacts_title">Emergency Contacts</string>
+    <string name="contacts_empty_title">No family contacts yet</string>
+    <string name="contacts_empty_message">Add the phone numbers of the people who should be told if a fall is detected.</string>
+    <string name="contact_name_hint">Full name</string>
+    <string name="contact_phone_hint">Phone number</string>
+    <string name="contact_name_error">Please enter a name.</string>
+    <string name="contact_phone_error">Please enter a valid phone number.</string>
+    <string name="contact_phone_error_digits">Phone number must contain between 5 and 15 digits.</string>
+    <string name="contact_saved">Contact saved.</string>
+    <string name="contact_updated">Contact updated.</string>
+    <string name="contact_deleted">Contact deleted.</string>
+    <string name="contact_delete_title">Delete %1$s?</string>
+    <string name="contact_delete_message">This contact will be removed permanently from this phone.</string>
+    <string name="contact_edit_title">Edit Contact</string>
+    <string name="contact_add_title">Add Contact</string>
+    <string name="contact_call_title">Call %1$s?</string>
+    <string name="contact_call_message">The dialler will open with %1$s. Tap the call button to connect.</string>
+    <string name="contact_no_dialer">No phone dialler app was found on this device.</string>
+
+    <!-- ============ History ============ -->
+    <string name="history_title">Alert History</string>
+    <string name="history_empty_title">No alerts recorded</string>
+    <string name="history_empty_message">Alerts created by hardware or Demo Mode are stored here so you can review them later.</string>
+    <string name="history_clear_title">Clear alert history?</string>
+    <string name="history_clear_message">All locally stored alerts (including demo alerts) will be deleted. This cannot be undone.</string>
+    <string name="history_cleared">Alert history cleared.</string>
+    <string name="history_item_demo">DEMO</string>
+    <string name="history_item_live">LIVE</string>
+    <string name="history_item_datetime">%1$s  •  %2$s</string>
+
+    <!-- ============ Hospitals ============ -->
+    <string name="hospitals_title">Nearby Hospitals</string>
+    <string name="hospitals_intro">Find the nearest hospital quickly. The app opens Google Maps with a search for hospitals around you.</string>
+    <string name="hospitals_search_hint">City, area or hospital name (optional)</string>
+    <string name="hospitals_open_maps">Open Google Maps — Hospitals Near Me</string>
+    <string name="hospitals_open_any_map">Open Any Map App</string>
+    <string name="hospitals_maps_missing_title">Google Maps is not available</string>
+    <string name="hospitals_maps_missing_message">Google Maps could not be opened on this device. You can open the search in a web browser instead, or install Google Maps from the Play Store.</string>
+    <string name="hospitals_no_map_app">No map application was found on this device.</string>
+    <string name="hospitals_search_query_empty">hospitals near me</string>
+    <string name="hospitals_search_query_named">hospitals near %1$s</string>
+
+    <!-- ============ Demo mode ============ -->
+    <string name="demo_title">Demo &amp; Hardware Test</string>
+    <string name="demo_banner_title">DEMO &amp; HARDWARE TEST</string>
+    <string name="demo_banner_message">Simulate local alerts or trigger live Firebase test events to test your physical hardware integration.</string>
+    <string name="demo_simulate_no_motion">Simulate Local No Motion Alert</string>
+    <string name="demo_simulate_no_motion_desc">Simulates phone-side inactivity sensor firing.</string>
+    <string name="demo_simulate_emergency">Simulate Local Emergency Button</string>
+    <string name="demo_simulate_emergency_desc">Simulates phone-side physical emergency button.</string>
+    <string name="demo_connection_title">Device connection</string>
+    <string name="demo_connection_desc">Switch the simulated connection to test the ONLINE and OFFLINE states.</string>
+    <string name="demo_set_offline">Simulate Device Offline</string>
+    <string name="demo_set_online">Simulate Device Online</string>
+    <string name="demo_triggered">Demo alert triggered.</string>
+
+    <!-- Hardware Test Section -->
+    <string name="demo_firebase_test_title">Test Live Firebase Hardware Events</string>
+    <string name="demo_firebase_test_desc">Updates the real Firebase Database at /devices/{deviceId} to test the full pipeline (Cloud Functions, push notifications, dashboard).</string>
+    <string name="demo_test_buzzer_off">Test Hardware: Emergency (Buzzer OFF)</string>
+    <string name="demo_test_buzzer_off_desc">Writes emergency=true, buzzer=false to Firebase. Expected: Family notification fires!</string>
+    <string name="demo_test_buzzer_on">Test Hardware: Emergency (Buzzer ON)</string>
+    <string name="demo_test_buzzer_on_desc">Writes emergency=true, buzzer=true to Firebase. Expected: Local alarm only; no notification.</string>
+    <string name="demo_config_device_id">Configure Hardware Device ID</string>
+    <string name="demo_config_device_id_desc">Current Device ID: %1$s. Tap to change.</string>
+
+    <!-- ============ Notifications / system ============ -->
+    <string name="notification_channel_name">Safety alerts</string>
+    <string name="notification_channel_description">Alerts raised by the bathroom safety device.</string>
+    <string name="notification_permission_rationale">Allow notifications so safety alerts are shown on your lock screen.</string>
+    <string name="notification_permission_denied">Notifications are disabled. Alerts will only be shown inside the app.</string>
+    <string name="notification_title_no_motion">No motion detected</string>
+    <string name="notification_title_emergency">Emergency button pressed</string>
+    <string name="notification_body">Tap to open Smart Bathroom Safety and see the alert details.</string>
+
+    <!-- ============ Firebase ============ -->
+    <string name="firebase_active_badge">FIREBASE: LIVE &amp; ACTIVE</string>
+    <string name="firebase_active_note">Connected to Firebase Realtime Database. Hardware telemetry and emergency alerts are updating in real time.</string>
+    <string name="firebase_pending_badge">FIREBASE: OFFLINE</string>
+    <string name="firebase_pending_note">Alerts are currently produced by the local demo data source.</string>
+    <string name="demo_data_badge">LIVE &amp; DEMO TOOLS</string>
+
+</resources>

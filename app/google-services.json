@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "795463980970",
+    "firebase_url": "https://iot-fall-detection-syste-8f255-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "iot-fall-detection-syste-8f255",
+    "storage_bucket": "iot-fall-detection-syste-8f255.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795463980970:android:a56a2f9e1a5d732390bdd3",
+        "android_client_info": {
+          "package_name": "com.example.smartwashroom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "BFWKVjW_gyzhpQfP4_FNHG5QvCeGBf__fKpzxgoYTq7ldgp0NwYyi3uH_tqzAyy9QGFpuuZ346f3hxchNKd2gB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
